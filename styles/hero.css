@@ -21,7 +21,7 @@
     }
 }
 
-@media(width > 1280px){
+@media(width >= 1280px){
     #hero{
         background: url(../assets/bg-hero-desktop.svg) no-repeat bottom center/contain;
         padding-bottom: 15rem;
