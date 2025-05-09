@@ -52,7 +52,7 @@
 
     &::after{
         content: attr(aria-label);
-        background-color: var(--btn-bg-color);
+        background: var(--btn-bg-color);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -60,9 +60,4 @@
         z-index: 1;
     }
 
-    &:hover{
-        &::after{
-            background-color: var(--brand-color-secondary);
-        }
-    }
 }
