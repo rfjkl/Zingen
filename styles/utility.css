@@ -27,8 +27,16 @@
     display: flex;
 }
 
+.itemscenter{
+    align-items: center;
+}
+
 .gap-1{
     gap: 1rem;
+}
+
+.gap1dot5{
+    gap: 1.5rem;
 }
 
 .grid{
