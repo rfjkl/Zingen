@@ -6,7 +6,7 @@
 
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     width: fit-content;
 
     border-radius: .5rem;
@@ -17,6 +17,7 @@
 
     background: var(--btn-bg-color);
     color: var(--btn-color);
+
 }
 
 .btn:hover{
@@ -50,7 +51,7 @@
         content: "";
         position: absolute;
         border-radius: inherit;
-        inset: 1.5px;
+        inset: 1px;
         background-color: var(--bg-color);
     }
 
